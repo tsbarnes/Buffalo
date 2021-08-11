@@ -20,7 +20,7 @@ Kirigami.ApplicationWindow {
 
     globalDrawer: Kirigami.GlobalDrawer {
         title: i18n("Buffalo")
-        titleIcon: "applications-graphics"
+        titleIcon: "buffalo"
         isMenu: !root.isMobile
         actions: [
             Kirigami.Action {
@@ -44,17 +44,17 @@ Kirigami.ApplicationWindow {
 
     pageStack.initialPage: page
 
-    Kirigami.Page {
+    Kirigami.ScrollablePage {
         id: page
 
         Layout.fillWidth: true
 
-        title: i18n("Main Page")
+        title: i18n("Buffalo")
 
         actions.main: Kirigami.Action {
-            text: i18n("Plus One")
-            icon.name: "list-add"
-            tooltip: i18n("Add one to the counter")
+            text: i18n("Login")
+            icon.name: "login"
+            tooltip: i18n("Log into Mastodon")
             onTriggered: {
                 counter += 1
             }
@@ -67,7 +67,7 @@ Kirigami.ApplicationWindow {
 
             Kirigami.Heading {
                 Layout.alignment: Qt.AlignCenter
-                text: counter == 0 ? i18n("Hello, World!") : counter
+x               text: i18n("Mastodon Timeline")
             }
 
             Controls.Button {

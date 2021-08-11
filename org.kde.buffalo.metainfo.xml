@@ -5,18 +5,17 @@
  -->
 <component type="desktop-application">
   <id>org.kde.buffalo</id>
-  <name>Buffalo Kirigami Application</name>
-  <summary>A short summary describing what this software is about</summary>
-  <metadata_license>A permissive license for this metadata, e.g. "FSFAP" + Update the SPDX tags above!</metadata_license>
-  <project_license>The license of this software as SPDX string, e.g. "GPL-2.0-or-later"</project_license>
-  <developer_name>The software vendor name, e.g. "ACME Corporation"</developer_name>
+  <name>Buffalo Mastodon Client</name>
+  <summary>A simple Mastodon client for KDE</summary>
+  <metadata_license>GPL 2.0 or later</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+  <developer_name>Thea Barnes</developer_name>
   <description>
-    <p>Multiple paragraphs of long description, describing this software component.</p>
-    <p>You can also use ordered and unordered lists:</p>
+    <p>A simple Mastodon client for KDE.</p>
+    <p>Features include:</p>
     <ul>
-      <li>Feature 1</li>
-      <li>Feature 2</li>
+      <li>Login to Mastodon instances</li>
     </ul>
-    <p>Keep in mind to XML-escape characters, and that this is not HTML markup.</p>
+    <p>Created for the Mastodon instance <a href="https://queer.party">queer.party"</a></p>
   </description>
 </component>

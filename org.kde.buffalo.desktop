@@ -2,12 +2,12 @@
 # SPDX-FileCopyrightText: %{CURRENT_YEAR} %{AUTHOR} <%{EMAIL}>
 [Desktop Entry]
 Name=Buffalo
-Comment=Buffalo Kirigami Application
+Comment=Client for Mastodon
 Version=1.0
 Exec=buffalo
-Icon=applications-development
+Icon=buffalo
 Type=Application
 Terminal=false
 # Add an actual main category here (and possibly applicable additional ones)
 #   https://specifications.freedesktop.org/menu-spec/latest/apa.html#main-category-registry
-Categories=Qt;KDE;
+Categories=Qt;KDE;Network;
