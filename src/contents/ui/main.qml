@@ -66,8 +66,8 @@ Kirigami.ApplicationWindow {
             anchors.centerIn: parent
 
             Kirigami.Heading {
+                text: i18n("Mastodon Timeline")
                 Layout.alignment: Qt.AlignCenter
-x               text: i18n("Mastodon Timeline")
             }
 
             Controls.Button {
